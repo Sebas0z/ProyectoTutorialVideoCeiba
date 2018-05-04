@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: ProyectoTutorialVideoCeiba
-Implementation-Version: 0.1.0
-

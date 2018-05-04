@@ -10,12 +10,6 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'jacoco'
 
-dependencies {
-    // Use JUnit test framework
-    testCompile('junit:junit:4.12')
-    testCompile('org.mockito:mockito-core:2.+')
-}
-
 version = '0.1.0'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -33,6 +27,12 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
     mavenCentral()
+}
+
+dependencies {
+    // Use JUnit test framework
+    testCompile('junit:junit:4.12')
+    testCompile('org.mockito:mockito-core:1.+')
 }
 
 test {
